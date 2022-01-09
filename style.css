@@ -7,7 +7,8 @@ body{
 
 #screen{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 80px;
+    text-align: end;
     background-color: gray;
 
     flex: auto;

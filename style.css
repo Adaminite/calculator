@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    min-height: 100vh;
+    height: 100vh;
 }
 
 
@@ -55,11 +55,15 @@ body{
     font-size: 20px;
 }
 
+.decimal, .equals{
+    flex: 0 1 25%;
+}
+
 .operation{
     background-color: aquamarine;
 }
 
-.number{
+.number, .decimal{
     background-color: coral;
 }
 

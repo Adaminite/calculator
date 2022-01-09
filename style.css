@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body{  
     display: flex;
     flex-direction: column;
@@ -26,7 +27,7 @@ body{
     font-family: monospace;
     font-size: 80px;
     text-align: end;
-    background-color: gray;
+    background-color: lavender;
 
     flex: 0 1 100px;
     
@@ -47,11 +48,29 @@ body{
 .btn{
     background-color: white;
     flex: 1 1 25%;
-    padding: 25px;
+    padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
+
+    font-size: 20px;
 }
 
-button:hover{
-    background-color: aqua;
+.operation{
+    background-color: aquamarine;
+}
+
+.number{
+    background-color: coral;
+}
+
+.equals{
+    background-color: orange;
+}
+
+.option{
+    background-color: lightskyblue;
+}
+
+.percent{
+    background-color: gold;
 }
